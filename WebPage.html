@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="WebStyle.css">
+    <title>Nurgali Kanat</title>
+  </head>
+  <body>
+    <div class="r">
+      <p ><button onclick="myMove()">Hello!!!</button></p>
+      <p ><button onclick="myMove1()">Buy!!!</button></p>
+    </div>
+    <div class="table1">
+      <table>
+        <tr>
+          <th><h1>Year</h1></th>
+          <th><h1>Event</h1></th>
+        </tr>
+        <tr>
+          <td>2004</td>
+          <td>I born</td>
+        </tr>
+        <tr>
+          <td>2010</td>
+          <td>I went to my first school in Pavlodar</td>
+        </tr>
+        <tr>
+          <td>2012</td>
+          <td>I went to my second school in Karaganda</td>
+        </tr>
+        <tr>
+          <td>2014</td>
+          <td>I went to my third school in Almaty</td>
+        </tr>
+        <tr>
+          <td>2016</td>
+          <td>I went to <a href="https://almatyboysbilim.edupage.org">AKTL</a></td>
+        </tr>
+        <tr>
+          <td>2021</td>
+          <td>I will go to <a href="http://www.mit.edu/">MIT</a></td>
+        </tr>
+      </table>
+      <div class="container">
+          <img src="Iam1.png" class="container">
+          <img src="Iam2.png" id ="animate1">
+          <img src="Iam2.png" id = "animate2">
+      </div>
+    </div>
+    <div id="First">
+      <img src="My.png" id="animate">
+      <div id="text1">
+        <h1><p class= "tx">Kanat Nurgali</p></h1>
+      </div>
+    </div>
+    <div class="e">
+      <div class="q">
+        <h3>My Achievments</h3>
+        <ul>
+          <li>&#127941;Bronze on Republic Olympiad(2019)&#127941;</li>
+          <li>&#127941;Finished course of Nuclear Engeneering from MIT&#127941;</li>
+          <li>&#127941;Participated on IZHO&#127941;</li>
+          <li>&#127941;Participated on SRMC&#127941;</li>
+          <li>&#127941;Participated on APMO&#127941;</li>
+        </ul>
+      </div>
+    </div>
+    <div class="e">
+      <div class="q">
+        <h3>My Hobbies</h3>
+        <ul>
+          <li>Solving Math Puzzles</li>
+          <li>Coding</li>
+          <li>Studying science</li>
+          <li>Workouting</li>
+          <li>Playing with my Family&Friends</li>
+        </ul>
+      </div>
+    </div>
+    <div class="e">
+      <div class="q">
+        <h3>My goals</h3>
+        <ul>
+          <li>Being accepted into MIT's class of 2021</li>
+          <li>Starting Starup about CS</li>
+          <li>Gold on Republic Olympiad(2020)</li>
+          <li>Get on SAT at least 1500</li>
+          <li>Get on TOEFL at least 100</li>
+          <li>Get on IELTS at least </li>
+          <li>Gold on IZHO</li>
+          <li>Gold on APMO</li>
+          <li>Gold on SRMC</li>
+          <li>Gold on BMO</li>
+          <li>Gold on IMO</li>
+        </ul>
+      </div>
+    </div>
+    <script>
+    function myMove1(){
+      var ele = document.getElementById("animate1");
+      var ele1 = document.getElementById("animate2");
+      var po = 600;
+      var po2 = 600;
+      var po3 = 0;
+      var tie = setInterval(frme);
+      var tie2 = setInterval(frme2);
+      function frme(){
+        if(po==0){
+          clearInterval(tie);
+        }
+        else{
+          po--;
+          ele.style.top = po + "px";
+          ele.style.left = po + "px";
+        }
+      }
+      function frme2(){
+        if(po2==0){
+          clearInterval(tie2);
+        }
+        if(po3==600){
+          clearInterval(tie2);
+        }
+        else{
+          po3++;
+          po2--;
+          ele1.style.top = po2 + "px";
+          ele1.style.left= po3 + "px";
+
+        }
+     }
+   }
+      function myMove(){
+        var elem = document.getElementById("animate1");
+        var elem1 = document.getElementById("animate2");
+        var pos = 0;
+        var pos2 = 0;
+        var pos3 = 600;
+        var time = setInterval(frame);
+        var time2 = setInterval(frame2);
+        function frame(){
+          if(pos==600){
+            clearInterval(time);
+          }
+          else{
+            pos++;
+            elem.style.top = pos + "px";
+            elem.style.left = pos + "px";
+          }
+        }
+        function frame2(){
+          if(pos2==600){
+            clearInterval(time2);
+          }
+          if(pos3==0){
+            clearInterval(time2);
+          }
+          else{
+            pos3--;
+            pos2++;
+            elem1.style.top = pos2 + "px";
+            elem1.style.left= pos3 + "px";
+
+          }
+       }
+     }
+    </script>
+    <div class="t">
+      <h4><img id="instagram" src="instagram.png"><a href="https://www.instagram.com/kanos.tacos/">Instagram</a></h4>
+      <h4><img src="vk.png" id="vk"><a href="https://vk.com/tacos2">VK</a></h4>
+      <h4> <img src="telegram.png" id="telegram"><a href="https://t.me/crackingielts_together">Telegram</a></h4>
+      <h4> <img src="whatsapp.png" id="whatsapp"><a href="https://wa.me/+77029646824">Whatsapp</a></h4>
+    </div>
+  </body>
+</html>

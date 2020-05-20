@@ -1,0 +1,101 @@
+body{
+  background-image: url(ris1.png);
+
+}
+.q{
+  height:25%;
+  width: 20%;
+  margin-left:40%;
+  margin-right: 40%;
+  text-align: center;
+}
+.e{
+  background-color: #cfbc80;
+}
+.r{
+  background-color: #cfbc80;
+}
+button{
+    background-color:#4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  table{
+    position: absolute;
+    right: 0px;
+    border:1px solid black;
+    height: 800px;
+    width:730px;
+    background-color: #283635;
+  }
+  th , td{
+    padding:10px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 40px;
+  }
+  .container{
+    width:700px;
+    height:800px;
+    position: relative;
+    background: yellow;
+  }
+  #animate1{
+    width:100px;
+    height:100px;
+    position: absolute;
+    left: 0px;
+  }
+  #animate2{
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+}
+#First{
+  background-color:#cfbc80;
+  height: 450px;
+  width:100%;
+}
+#animate{
+  height: 75%;
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+#text1{
+  height:25%;
+  width: 20%;
+  margin-left:40%;
+  margin-right: 40%;
+  text-align: center;
+}
+.tx{
+  color: #8077d4;
+}
+#instagram{
+  height:30px;
+  width:30px;
+}
+#vk{
+  height:30px;
+  width:30px;
+}
+#telegram{
+  height:30px;
+  width:30px;
+}
+#whatsapp{
+  height:30px;
+  width:30px;
+}
+.t{
+  background-color:#cfbc80;
+}
